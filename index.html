@@ -1,0 +1,169 @@
+<! doctype html>
+<html lang="pt-AO" class="scroll-smooth">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0A1931">
+  <meta name="description" content="ILDL — Instituto Lotús de Diplomacia e Liderança. Formamos a próxima geração de   líderes e diplomatas angolanos.">
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
+  <title>ILDL — Diplomacia, Liderança e Conhecimento</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{colors:{navy:'#0A1931',gold:'#D4A017'},fontFamily:{serif:['EB Garamond','serif'],sans:['Jost','sans-serif']}}}}</script>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="bg-navy font-sans text-white antialiased">
+  <a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+
+  <header id="header" class="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-navy/90 backdrop-blur-md">
+    <div class="site-container flex h-[76px] items-center justify-between gap-6">
+      <a href="#inicio" class="brand flex shrink-0 items-center gap-3" aria-label="ILDL — página inicial">
+        <img src="./assets/ildl-logo.jpg" alt="ILDL — mapa de Angola" class="h-11 w-auto object-contain">
+        <span class="hidden border-l border-white/20 pl-3 text-[10px] uppercase leading-[1.35] tracking-[0.18em] text-white/70 sm:block">Instituto Lotús de<br>Diplomacia e Liderança</span>
+      </a>
+      <nav class="hidden items-center gap-7 lg:flex" aria-label="Navegação principal">
+        <a class="nav-link" href="#sobre">Sobre Nós</a>
+        <a class="nav-link" href="#programas">O Que Fazemos</a>
+        <a class="nav-link" href="#impacto">Impacto</a>
+        <a class="nav-link" href="#juntar">Junta-te a Nós</a>
+        <a class="nav-link" href="#contacto">Contacto</a>
+      </nav>
+      <a href="#juntar" class="button-primary hidden min-h-11 items-center px-5 lg:inline-flex">Faça Parte <span aria-hidden="true">↗</span></a>
+      <button id="menu-toggle" class="menu-toggle grid h-11 w-11 place-items-center lg:hidden" aria-expanded="false" aria-controls="mobile-menu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav id="mobile-menu" class="mobile-menu lg:hidden" aria-label="Navegação móvel" hidden>
+      <div class="site-container grid py-4">
+        <a href="#sobre">Sobre Nós</a><a href="#programas">O Que Fazemos</a><a href="#impacto">Impacto</a><a href="#equipa">Equipa</a><a href="#juntar">Junta-te a Nós</a><a href="#contacto">Contacto</a>
+        <a href="#juntar" class="button-primary mt-4 inline-flex min-h-12 items-center justify-center">Faça Parte</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section id="inicio" class="hero relative flex min-h-[100dvh] items-center overflow-hidden pt-28">
+      <div class="hero-original" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="site-container relative z-10 grid items-center gap-10 pb-[33vw] pt-10 lg:grid-cols-12 lg:pb-28 lg:pt-20">
+        <div class="reveal lg:col-span-7">
+          <p class="eyebrow">Diplomacia começa com uma voz.</p>
+          <h1 class="hero-title mt-6 font-serif">O FUTURO<br>ESPERA<br><em>POR VOCÊ.</em></h1>
+          <p class="mt-7 max-w-xl text-lg font-light leading-relaxed text-white/85 md:text-xl">Formamos a próxima geração de líderes e diplomatas angolanos.</p>
+          <a href="#juntar" class="button-primary mt-9 inline-flex min-h-13 items-center gap-5 px-7">Quero fazer parte do ILDL <span class="arrow" aria-hidden="true">→</span></a>
+        </div>
+        <div class="reveal relative z-20 lg:col-span-5 lg:pl-8" data-delay="120">
+          <p class="mb-5 text-xs uppercase tracking-[0.22em] text-gold">Onde podes começar</p>
+          <ul class="hero-bullets">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20v-8m16 8v-8M2 12h20M7 12V5h10v7M9 5V2h6v3M8 20v-4m8 4v-4"/></svg><span>Debates Académicos</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg><span>Simulações da ONU</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 9 9-5 9 5-9 5-9-5Zm4 2v5c3 2 7 2 10 0v-5M21 9v6"/></svg><span>Bolsas de Estudo</span></li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 3 4 7 4-7M7 13a5 5 0 1 0 10 0 5 5 0 0 0-10 0Z"/><path d="m12 15 1 2 2 .3-1.5 1.4.4 2.3-1.9-1-1.9 1 .4-2.3L9 17.3l2-.3 1-2Z"/></svg><span>Olimpíadas e Oportunidades</span></li>
+          </ul>
+        </div>
+      </div>
+      <img class="hero-students" src="./assets/estudantes-angolanos.png" alt="Grupo de estudantes angolanos em traje académico" fetchpriority="high">
+      <div class="scroll-cue" aria-hidden="true"><span></span>Descobrir</div>
+    </section>
+
+    <section id="sobre" class="section-light py-24 md:py-32">
+      <div class="site-container">
+        <div class="reveal grid gap-8 lg:grid-cols-12 lg:items-end">
+          <div class="lg:col-span-7"><p class="eyebrow">Sobre nós</p><h2 class="section-title mt-5">Angola no centro<br>da conversa global.</h2></div>
+          <p class="max-w-xl text-lg leading-relaxed text-navy/75 lg:col-span-5">O ILDL é uma iniciativa angolana que transforma conhecimento em voz, voz em liderança e liderança em impacto.</p>
+        </div>
+        <div class="mt-16 grid gap-5 md:grid-cols-3">
+          <article class="value-card reveal md:col-span-1"><span class="card-number">01</span><h3>Missão</h3><p>Promover o pensamento crítico, a liderança e a diplomacia entre jovens, aproximando-os das oportunidades que ampliam o seu futuro.</p></article>
+          <article class="value-card reveal md:translate-y-8" data-delay="100"><span class="card-number">02</span><h3>Visão</h3><p>Ser uma referência na formação de uma geração angolana preparada para liderar, negociar e representar o país no mundo.</p></article>
+          <article class="value-card reveal" data-delay="200"><span class="card-number">03</span><h3>Valores</h3><p>Excelência, integridade, serviço, diversidade de ideias e compromisso com o desenvolvimento de Angola.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="programas" class="bg-navy py-24 md:py-32">
+      <div class="site-container">
+        <div class="reveal flex flex-col justify-between gap-6 md:flex-row md:items-end"><div><p class="eyebrow">O que fazemos</p><h2 class="section-title mt-5">Aprender fazendo.<br><em>Liderar servindo.</em></h2></div><p class="max-w-md text-white/70">Programas desenhados para tirar o conhecimento do papel e colocá-lo ao serviço de Angola.</p></div>
+        <div class="program-grid mt-16">
+          <article class="program-card reveal"><div class="program-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="12"/><path d="M4 16h24M16 4a21 21 0 0 1 0 24M16 4a21 21 0 0 0 0 24"/></svg></div><span>01 / Simular</span><h3>Modelos ONU</h3><p>Simulações das Nações Unidas que desenvolvem negociação, oratória, investigação e visão global.</p><a href="#juntar" aria-label="Conhecer Modelos ONU">Conhecer o programa <b>→</b></a></article>
+          <article class="program-card reveal" data-delay="80"><div class="program-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 6h22v15H14l-6 5v-5H5V6Z"/><path d="M10 12h12M10 16h8"/></svg></div><span>02 / Argumentar</span><h3>Clube de Debate</h3><p>Um espaço seguro para construir argumentos, escutar perspetivas e defender ideias com rigor.</p><a href="#juntar" aria-label="Conhecer Clube de Debate">Conhecer o programa <b>→</b></a></article>
+          <article class="program-card reveal" data-delay="160"><div class="program-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 28V8m0 4-5-5m5 5 5-5M9 28h14M11 20h10M8 12h16"/></svg></div><span>03 / Transformar</span><h3>Academia de Liderança</h3><p>Formação prática para jovens que querem mobilizar equipas e criar soluções nas suas comunidades.</p><a href="#juntar" aria-label="Conhecer Academia de Liderança">Conhecer o programa <b>→</b></a></article>
+          <article class="program-card reveal" data-delay="240"><div class="program-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9 4h14v7a7 7 0 0 1-14 0V4Zm0 3H4v3a5 5 0 0 0 5 5m14-8h5v3a5 5 0 0 1-5 5M16 18v6m-5 4h10m-8-4h6"/></svg></div><span>04 / Descobrir</span><h3>Olimpíadas Científicas</h3><p>Desafios que celebram a curiosidade, a excelência académica e o talento científico angolano.</p><a href="#juntar" aria-label="Conhecer Olimpíadas Científicas">Conhecer o programa <b>→</b></a></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="impacto" class="section-light py-24 md:py-32">
+      <div class="site-container">
+        <div class="grid gap-12 lg:grid-cols-12">
+          <div class="reveal lg:col-span-5"><p class="eyebrow">Impacto</p><h2 class="section-title mt-5">Uma geração.<br>Mais possibilidades.</h2><p class="mt-7 max-w-md text-lg text-navy/70">A nossa ambição para 2026 é criar pontes reais entre jovens, universidades e oportunidades.</p></div>
+          <div class="stats-grid reveal lg:col-span-7" data-delay="100">
+            <div><strong data-count="120">120</strong><sup>+</sup><span>jovens a impactar</span></div>
+            <div><strong data-count="5">5</strong><span>universidades a conectar</span></div>
+            <div><strong data-count="4">4</strong><span>programas de desenvolvimento</span></div>
+            <div><strong>1</strong><span>visão partilhada para Angola</span></div>
+          </div>
+        </div>
+        <div class="mt-20 grid gap-6 md:grid-cols-2">
+          <blockquote class="quote reveal"><span class="quote-mark">“</span><p>Quando um jovem aprende a estruturar a sua voz, descobre que também pode ajudar a desenhar o futuro do seu país.</p><footer><span class="avatar">EA</span><div><strong>Estudante de Relações Internacionais</strong><small>Luanda · depoimento ilustrativo</small></div></footer></blockquote>
+          <blockquote class="quote reveal" data-delay="100"><span class="quote-mark">“</span><p>Liderança não é estar à frente de todos. É saber escutar, construir consensos e abrir caminho para os outros.</p><footer><span class="avatar">CL</span><div><strong>Participante da Academia de Liderança</strong><small>Angola · depoimento ilustrativo</small></div></footer></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="equipa" class="team-section py-24 md:py-32">
+      <div class="site-container">
+        <div class="reveal grid gap-8 lg:grid-cols-12"><div class="lg:col-span-8"><p class="eyebrow">A nossa equipa</p><h2 class="section-title mt-5">Pessoas que acreditam<br>no potencial de Angola.</h2></div><p class="self-end text-navy/70 lg:col-span-4">Uma equipa multidisciplinar, unida pela educação, pelo serviço e pela vontade de fazer acontecer.</p></div>
+        <div class="mt-14 grid grid-cols-2 gap-x-4 gap-y-10 lg:grid-cols-4">
+          <article class="team-member reveal"><div class="team-photo"><span>Foto</span></div><h3>Nome da equipa</h3><p>Direção Executiva</p></article>
+          <article class="team-member reveal lg:translate-y-10" data-delay="80"><div class="team-photo"><span>Foto</span></div><h3>Nome da equipa</h3><p>Programas Académicos</p></article>
+          <article class="team-member reveal" data-delay="160"><div class="team-photo"><span>Foto</span></div><h3>Nome da equipa</h3><p>Parcerias & Bolsas</p></article>
+          <article class="team-member reveal lg:translate-y-10" data-delay="240"><div class="team-photo"><span>Foto</span></div><h3>Nome da equipa</h3><p>Comunicação & Comunidade</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="parceiros" class="border-y border-white/10 bg-navy py-16">
+      <div class="site-container"><p class="reveal text-center text-xs uppercase tracking-[0.25em] text-white/60">Crescemos com quem acredita na educação</p>
+        <div class="partner-logos reveal mt-10" data-delay="100"><span>UNIVERSIDADE</span><span>EMPRESA PARCEIRA</span><span>FUNDAÇÃO</span><span>INSTITUIÇÃO</span><span>ORGANIZAÇÃO</span></div>
+      </div>
+    </section>
+
+    <section id="juntar" class="cta-section py-24 md:py-32">
+      <div class="site-container">
+        <div class="reveal mx-auto max-w-4xl text-center"><p class="eyebrow justify-center">Faça parte</p><h2 class="section-title mt-5">O teu lugar nesta história<br><em>começa agora.</em></h2></div>
+        <div class="mt-14 grid overflow-hidden bg-white text-navy lg:grid-cols-2">
+          <div class="student-form-wrap p-6 md:p-10 lg:p-12">
+            <p class="form-kicker">Sou estudante</p><h3 class="font-serif text-4xl">Inscrever-me</h3><p class="mt-3 text-navy/65">Conta-nos quem és e que oportunidade procuras.</p>
+            <form id="student-form" class="mt-8 grid gap-5" novalidate>
+              <div class="form-field"><label for="nome">Nome completo *</label><input id="nome" name="nome" type="text" autocomplete="name" required placeholder="O teu nome"><small class="error-message"></small></div>
+              <div class="form-field"><label for="email">Email *</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="nome@email.com"><small class="error-message"></small></div>
+              <div class="grid gap-5 sm:grid-cols-2"><div class="form-field"><label for="universidade">Universidade</label><input id="universidade" name="universidade" type="text" placeholder="Instituição"></div><div class="form-field"><label for="curso">Curso</label><input id="curso" name="curso" type="text" placeholder="Área de estudo"></div></div>
+              <div class="form-field"><label for="interesse">Área de interesse *</label><select id="interesse" name="interesse" required><option value="">Seleciona uma opção</option><option>Modelos ONU</option><option>Clube de Debate</option><option>Academia de Liderança</option><option>Olimpíadas Científicas</option><option>Bolsas de Estudo</option></select><small class="error-message"></small></div>
+              <button type="submit" class="button-primary mt-2 inline-flex min-h-13 items-center justify-center gap-4">Enviar inscrição <span aria-hidden="true">→</span></button>
+              <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+          <div class="sponsor-panel flex flex-col justify-between p-6 md:p-10 lg:p-12">
+            <div><p class="form-kicker text-gold">Sou empresa</p><h3 class="mt-2 font-serif text-4xl md:text-5xl">Invista em quem vai<br>liderar amanhã.</h3><p class="mt-6 max-w-md text-lg text-white/75">Apoie programas académicos, bolsas e oportunidades para jovens angolanos. Vamos construir uma parceria com propósito.</p></div>
+            <div class="mt-12"><ul class="sponsor-benefits"><li>Impacto social mensurável</li><li>Proximidade com talento universitário</li><li>Visibilidade institucional</li></ul><a class="button-whatsapp mt-9 inline-flex min-h-13 items-center gap-3 px-6" href="https://wa.me/?text=Ol%C3%A1%20ILDL%2C%20represento%20uma%20empresa%20e%20gostaria%20de%20conhecer%20as%20oportunidades%20de%20patroc%C3%ADnio." target="_blank" rel="noopener noreferrer" aria-label="Falar sobre patrocínio pelo WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.6a8 8 0 0 1-11.8 7L4 20l1.4-4A8 8 0 1 1 20 11.6Z"/><path d="M9 8.5c.5 3 2 4.5 5 5l1-1 2 1c-.5 2-2 2.5-4 2-3.5-1-6-3.5-7-7-.5-2 0-3.5 2-4l1 2-1 1Z"/></svg>Quero patrocinar <span aria-hidden="true">↗</span></a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto" class="bg-[#061122] pb-8 pt-20">
+    <div class="site-container">
+      <div class="grid gap-12 border-b border-white/10 pb-14 md:grid-cols-2 lg:grid-cols-12">
+        <div class="lg:col-span-5"><img src="./assets/ildl-logo.jpg" alt="ILDL" class="h-16 w-auto"><p class="mt-6 max-w-sm text-white/65">Instituto Lotús de Diplomacia e Liderança.<br>Pensamento crítico. Voz jovem. Futuro angolano.</p></div>
+        <div class="lg:col-span-3"><h2 class="footer-title">Navegação</h2><div class="mt-5 grid gap-3"><a href="#sobre">Sobre Nós</a><a href="#programas">Programas</a><a href="#impacto">Impacto</a><a href="#equipa">Equipa</a></div></div>
+        <div class="lg:col-span-4"><h2 class="footer-title">Contacto</h2><div class="mt-5 grid gap-3 text-white/70"><a href="mailto:geral@ildl.ao">geral@ildl.ao</a><span>Luanda, Angola</span><div class="mt-3 flex gap-5"><a class="social-link" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a class="social-link" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></div></div></div>
+      </div>
+      <div class="flex flex-col justify-between gap-3 pt-7 text-xs uppercase tracking-[0.14em] text-white/45 sm:flex-row"><p>© <span id="year">2026</span> ILDL. Todos os direitos reservados.</p><p>Luanda · Angola <span class="angola-mark" aria-hidden="true"></span></p></div>
+    </div>
+  </footer>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
